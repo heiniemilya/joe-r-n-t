@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Gudea', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'News Cycle', sans-serif;*/
+
+body {
+	margin-right:15px;
+	margin-left:15px;
+	background-color: #7E969A;
+	background-image: url(tausta.png);
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-size: 1300px;
+
+}
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+ 
+ @media (max-width: 767px) {
+	
+	.vasen {
+		min-height: 200px !important;
+		
+	}
+}
+
+.container {
+	overflow:hidden;
+	max-width:1100px;
+	height: auto;
+	}
+
+.vasen {
+	height: auto;
+	}
+
+.thumpnails {
+	height: auto;
+padding-left:20px;
+
+	}
+	
+.esittely {
+	height: auto;
+padding-left:10px;
+
+	}	
+	
+.thumpnail {
+	height: auto;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	}
+	
+	
+	
+.otsikko {
+	padding-left:30px;
+	padding-bottom: 20px;
+	padding-top: 50px;
+	}	
+	
+.header {
+	height: auto;
+	padding-top:25px;
+	padding-right:0px;
+	padding-bottom: 30px;
+	}
+
+.col-xs-12.header {
+	height: auto;
+	margin-left:-18px;
+	}
+	
+.navi {
+	margin: 0px;
+	text-align:right;
+	padding-right:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	min-height:70px;
+	}
+	
+.col-xs-12.navi {
+	margin: 0px;
+	text-align:center;
+	padding-right:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+	min-height:60px	;
+	border-top-width: 8px;
+	border-bottom-width: 8px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+	}		
+
+			
+.oikea{
+	min-height:1150px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	padding-left:-1px;
+	}
+	
+	
+	
+	
+.space {
+	height: auto;
+	}
+		
+	
+	
+.content {
+	text-align:left;
+	padding-top:20px;
+	padding-left:30px;
+	padding-right:40px;
+	padding-bottom:10px;
+	max-width: 700px;
+	height: auto;
+	}	
+	
+	
+	
+.photoslider{
+	padding-left:0px;
+	padding-right:20px;
+	margin-bottom:0px;
+	margin-top:20px;
+	}	
+
+	
+.footer {
+	padding-top:30px;
+	padding-left:30px;
+	padding-right:25px;
+	padding-bottom:50px;
+	color: white;
+	min-height:150px;
+	max-width:700px;
+	
+	}
+	
+.col-xs-12.footer {
+	padding-top:30px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:50px;
+	color: white;
+	min-height:150px;
+	}	
+	
+	
+.sidebar {
+	float:right;
+	max-width:300px;
+	padding-right: 30px;
+	padding-top:20px;
+	color: black;
+	min-height:400px;
+	text-align: right;
+	}	
+			
+	
+	
+.img-responsive {
+	max-width: 100%;
+	height: 300;
+	}
+	
+	
+.navi a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 17px;
+	color: #FFF;
+	padding-right: 9px;
+	letter-spacing: 0.1em;	
+}
+
+a:hover {
+	text-decoration: none;
+	color:#654a9e;
+}
+
+
+h1 {
+	font-size: 26px;
+	letter-spacing: 0.1em;
+	color:white;
+	font-family: 'Gudea', sans-serif;
+	text-transform: uppercase;
+}
+
+
+a {
+	font-size: 14px;
+	color:white;
+font-family: 'Gudea', sans-serif;
+}
+
+
+p {
+	font-size: 14px;
+	color:white;
+font-family: 'Gudea', sans-serif;
+}
+
+.empty {
+	min-height: 60px;
+}
+
+
+
+.column1 {
+	font-size: 20px;
+	color:white;
+font-family: 'Gudea', sans-serif;
+letter-spacing: 0.1em;
+
+
+}
+
+.column1 p{
+	font-size: 16px;
+	color:white;
+font-family: 'Gudea', sans-serif;
+letter-spacing: 0.0em;
+
+}
+
+
+
+table, th, td
+{
+	padding:15px;
+border-bottom: 1px solid white;
+border-top: 1px solid white;
+}
