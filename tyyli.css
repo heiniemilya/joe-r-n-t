@@ -223,7 +223,7 @@ body {
 	
 	
 .navi a {
-	font-family: 'Open Sans Condensed', 'PT Sans Narrow','News Cycle', sans-serif;
+	font-family: 'Open Sans Condensed', 'PT Sans Narrow','News Cycle', sans-serif; !important
 	font-size: 17px;
 	color: #FFF;
 	padding-right: 9px;
