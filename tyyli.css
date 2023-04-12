@@ -223,8 +223,8 @@ body {
 	
 	
 .navi a {
-	font-family: 'PT Sans Narrow','Open Sans Condensed','News Cycle', sans-serif; !important
-	font-size: 17px;
+	font-family: 'PT Sans Narrow','Open Sans Condensed','News Cycle', sans-serif; 
+	font-size: 20px;
 	color: #FFF;
 	padding-right: 9px;
 	letter-spacing: 0.1em;	
@@ -240,7 +240,7 @@ h1 {
 	font-size: 26px;
 	letter-spacing: 0.1em;
 	color:white;
-	font-family: 'PT Sans Narrow', 'Gudea', 'Open Sans Condensed' ,'News Cycle', sans-serif; !important
+	font-family: 'PT Sans Narrow', 'Gudea', 'Open Sans Condensed' ,'News Cycle', sans-serif; 
 	text-transform: uppercase;
 	}
 
@@ -248,14 +248,14 @@ h1 {
 a {
 	font-size: 14px;
 	color:white;
-	font-family: 'Gudea', 'Open Sans Condensed', 'PT Sans Narrow','News Cycle', sans-serif; !important
+	font-family: 'Gudea', 'Open Sans Condensed', 'PT Sans Narrow','News Cycle', sans-serif; 
 	}
 
 
 p {
 	font-size: 14px;
 	color:white;
-	font-family: 'Gudea', 'Open Sans Condensed', 'PT Sans Narrow','News Cycle', sans-serif; !important
+	font-family: 'Gudea', 'Open Sans Condensed', 'PT Sans Narrow','News Cycle', sans-serif; 
 	}
 
 .empty {
